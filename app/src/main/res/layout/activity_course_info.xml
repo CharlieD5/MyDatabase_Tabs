@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="edu.calbaptist.cs.egr423.mydatabase.CourseInfo">
+
+    <RelativeLayout
+        android:id="@+id/infoButton1"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+    <Button
+        android:id="@+id/info_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:onClick="info_click"
+        android:text="Back"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/info_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"/>
+    </RelativeLayout>
+</LinearLayout>
